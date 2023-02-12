@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: monospace, serif;
+    color: #40514E;
+}
+
+#top-description{
+    color: #294453;
+}
+
+h1{
+    margin: 50px auto 30px auto;
+    font-size: 6rem;
+    /*font-family: monospace, Arial, sans-serif;*/
+    font-family: 'Sacramento', cursive;
+    color: #54849e;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #54849e;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+#top-container{
+    background-color: #93BFCF;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+#middle-container{
+    background-color: #D2E3EC;
+    padding-bottom: 1px;
+}
+
+
+#bottom-container{
+    background-color: #BDCDD6;
+    padding: 1px;
+}
+
+#mountain-image{
+    margin-top: 100px;
+    width: 40%;
+}
+
+#bottom-cloud{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+
+#top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.profile{
+    padding-top: 50px;
+    padding-bottom: 55px;
+    background-color: #f3efe3;
+}
+
+.skill-row-web{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row-qa{
+    width: 25%;
+    float: right;
+}
+
+.skill-row-media{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row-comm{
+    width: 25%;
+    float: right;
+}
+
+.skill-row-basket{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    height: 250px;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+hr{
+    border: dotted #BDCDD6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.contact-me{
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #BDCDD6;
+    background-image: -webkit-linear-gradient(top, #BDCDD6, #93BFCF);
+    background-image: -moz-linear-gradient(top, #BDCDD6, #93BFCF);
+    background-image: -ms-linear-gradient(top, #BDCDD6, #93BFCF);
+    background-image: -o-linear-gradient(top, #BDCDD6, #93BFCF);
+    background-image: linear-gradient(to bottom, #BDCDD6, #93BFCF);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 6px 11px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6096B4;
+    text-decoration: none;
+  }
